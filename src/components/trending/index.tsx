@@ -30,7 +30,10 @@ export default function Trending() {
       data={trending}
       renderItem={({ item }) => <CardHorizontalFood food={item} />}
       horizontal={true}
-      contentContainerStyle={{ gap: 12, paddingHorizontal: 18 }}
+      contentContainerStyle={{
+        gap: 12,
+        paddingHorizontal: 18,
+      }}
       showsHorizontalScrollIndicator={false}
     />
   );

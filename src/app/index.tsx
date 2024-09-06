@@ -5,6 +5,7 @@ import { Banner } from "../components/banner";
 import Input from "../components/input";
 import Section from "../components/section";
 import Trending from "../components/trending";
+import Restaurants from "../components/restaurants";
 
 const statusBarHeight = Constants.statusBarHeight;
 
@@ -32,6 +33,22 @@ export default function Index() {
       />
 
       <Trending />
+      <Section
+        name="Famosos no Delivery"
+        label="Veja mais"
+        size="text-lg"
+        action={() => console.log("foi")}
+      />
+      <Restaurants horizontal={true} />
+
+      <Section
+        name="Restaurantes"
+        label="Veja mais"
+        size="text-lg"
+        action={() => console.log("foi")}
+      />
+
+      <Restaurants horizontal={false} />
     </ScrollView>
   );
 }
