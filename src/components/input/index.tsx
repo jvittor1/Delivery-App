@@ -1,5 +1,6 @@
 import { View, TextInput } from "react-native";
 import { Feather } from "@expo/vector-icons";
+import Section from "../section";
 
 export default function Input() {
   return (
