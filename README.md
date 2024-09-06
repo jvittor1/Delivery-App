@@ -55,6 +55,6 @@ Follow the steps below to run the project locally:
 ### Here’s how the app looks:
 
 <p align="center">
-  <img src="../project/src/assets/img1.jpg" alt="Image Project" width="280" style="margin-right: 18px;"/>
-  <img src="../project/src/assets/img2.jpg" alt="Image Project" width="280"/>
+  <img src="src/assets/img1.jpg" alt="Image Project" width="280" style="margin-right: 18px;"/>
+  <img src="src/assets/img2.jpg" alt="Image Project" width="280"/>
 </p>
